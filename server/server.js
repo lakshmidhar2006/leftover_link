@@ -58,6 +58,7 @@ const upload = multer({
 // Configure CORS to accept local frontend and production frontend
 const allowedOrigins = [
     'http://localhost:5173',
+    'https://leftover-link-alpha.vercel.app',
     'http://localhost:5174', // backup local
     process.env.FRONTEND_URL
 ].filter(Boolean); // remove undefined
